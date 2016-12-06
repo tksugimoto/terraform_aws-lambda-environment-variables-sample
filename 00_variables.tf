@@ -11,3 +11,16 @@ variable "prefix" {
 variable "region" {
 	default = "ap-northeast-1"
 }
+
+
+#################################
+
+variable "value3" {
+	default = "aaaa\nbbbb"
+}
+variable "value4" {
+	default = "aaaa\\nbbbb"
+}
+variable "value6" {
+	default = "日本語もOK"
+}

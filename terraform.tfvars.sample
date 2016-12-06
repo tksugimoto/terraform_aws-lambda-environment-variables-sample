@@ -9,3 +9,8 @@ prefix = "AWS_Lambda_Env_Var"
 
 # リージョンを東京に設定
 region = "ap-northeast-1"
+
+# 環境変数にセットするテキスト
+value3 = "aaaa\nbbbb"
+value4 = "aaaa\\nbbbb"
+value6 = "日本語もOK"
